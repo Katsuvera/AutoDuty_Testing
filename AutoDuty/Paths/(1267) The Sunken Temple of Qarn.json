@@ -569,6 +569,27 @@
       "Note": "The Scales of Judgment"
     },
     {
+      "Tag": "None",
+      "Name": "ModifyIndex",
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Arguments": [
+        "+4"
+      ],
+      "Conditions": [
+        {
+          "$type": "AutoDuty.Data.Classes+PathActionConditionObjectData, AutoDuty",
+          "baseId": 2000430,
+          "property": "EventState",
+          "value": 0
+        }
+      ],
+      "Note": "Skips ahead if the Treasure Room is inaccessible."
+    },
+    {
       "Tag": "Treasure",
       "Name": "TreasureCoffer",
       "Position": {
