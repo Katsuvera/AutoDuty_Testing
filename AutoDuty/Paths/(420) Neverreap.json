@@ -685,7 +685,7 @@
         "Version": 299,
         "Change": "Added logic to reset index if hit by tornadoes, added W2W/StopForCombat logic"
       }
-	],
+    ],
     "Notes": []
   }
 }
